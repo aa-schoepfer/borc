@@ -1,0 +1,37 @@
+{
+    "csvFileName": "data/example_dataset.csv",
+    "columns": {
+        "conditions": [
+            "temperature",
+            "pressure"
+        ],
+        "molecules": [
+            "solvent",
+            "cu_source"
+        ],
+        "properties": [
+            "yield",
+            "ee"
+        ]
+    },
+    "_add": {
+        "cu_source": [
+            "[Cu]I",
+            "[Cu]Br",
+            "[Cu]Cl"
+        ],
+        "temperature": [
+            25,
+            50,
+            75
+        ]
+    },
+    "_remove": {
+        "cu_source": [
+            "C1=CC(=C(C=C1)C(=O)Cl)C(=O)O"
+        ],
+        "temperature": [
+            300
+        ]
+    }
+}
